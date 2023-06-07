@@ -1,14 +1,16 @@
 //react/Title.tsx
 import React, { useEffect, useState } from 'react';
 
-function Testimony() {
+function Testimony({
+  SliderLayout
+}) {
   const [testimonies, setTestimonies] = useState([])
 
   /**
    * Fetch the list of testimonies from MasterData and set the list to state "testimonies".
    *
    */
-  function fetchTestimonies () {
+  function fetchTestimonies (props) {
     fetch("/api/dataentities/DJ/search?_fields=name,city,testimony,date", {
       headers: {
 		    "Accept": "application/json",
@@ -27,9 +29,16 @@ function Testimony() {
   }, [])
 
   return (
-    <div>
-      Testimony
-    </div>
+    <SliderLayout>
+      {testimonies.map(testimony => 
+        <div>
+          {testimony.name}
+          {testimony.testimony}
+          {testimony.city}
+          {testimony.date}
+        </div>
+      )}
+    </SliderLayout>
   )
 }
 

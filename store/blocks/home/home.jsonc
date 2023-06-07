@@ -17,7 +17,9 @@
   },
 
   "testimony-list": {
-    "props": {}  
+    "props": {
+      "SliderLayout": "slider-layout#testimony"
+    }  
   },
 
   "list-context.image-list#demo": {
