@@ -1,0 +1,13 @@
+{
+  "slider-layout#testimony-list": {
+    "props": {
+      "blockClass": "testimony-list",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}
