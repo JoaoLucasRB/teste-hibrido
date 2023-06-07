@@ -20,6 +20,6 @@ da tela.
 que deixou um depoimento.
 
 ## Solução
-Foi montado um carrossel utilizando um componente já existente da VTEX (Slider Layout), o que já me garantiu a funcionalidade e a responsividade do carrossel para qualquer dispositivo. Dentre desse componente foi apresentado os dados obtidos do MasterData.
+Foi montado um carrossel utilizando um componente já existente da VTEX (Slider Layout), o que já me garantiu a funcionalidade e a responsividade do carrossel para qualquer dispositivo. Dentre desse componente são apresentados os dados obtidos do MasterData.
 
 ![image](https://github.com/JoaoLucasRB/teste-hibrido/assets/32493395/7eb6409b-921a-461b-9004-3d14b0764a23)
