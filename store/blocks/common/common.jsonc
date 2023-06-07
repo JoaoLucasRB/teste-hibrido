@@ -1,6 +1,7 @@
 {
-  "slider-layout#testimony": {
+  "slider-layout#testimony-list": {
     "props": {
+      "blockClass": "testimony-list",
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 2,

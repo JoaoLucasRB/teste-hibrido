@@ -11,15 +11,10 @@
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
+      "rich-text#testimony-title",
       "testimony-list",
       "newsletter"
     ]
-  },
-
-  "testimony-list": {
-    "props": {
-      "SliderLayout": "slider-layout#testimony"
-    }  
   },
 
   "list-context.image-list#demo": {
@@ -106,6 +101,18 @@
     "props": {
       "text": "\n**Reach us at**\nwww.vtex.com.br",
       "blockClass": "link"
+    }
+  },
+
+  "testimony-list": {
+    "props": {
+      "SliderLayout": "slider-layout#testimony-list"
+    }  
+  },
+  "rich-text#testimony-title": {
+    "props": {
+      "text": "## Depoimentos dos nossos clientes",
+      "blockClass": "shelfTitle"
     }
   }
 }
