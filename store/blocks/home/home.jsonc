@@ -11,8 +11,13 @@
       "info-card#home",
       "rich-text#question",
       "rich-text#link",
+      "testimony-list",
       "newsletter"
     ]
+  },
+
+  "testimony-list": {
+    "props": {}  
   },
 
   "list-context.image-list#demo": {
